@@ -1,4 +1,4 @@
-# visionet-template
+# Visionet HTML Template
 Visionet HTML and CSS template assignment
 Front-end rwd responsive layout
 
