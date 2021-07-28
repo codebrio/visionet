@@ -1,0 +1,9 @@
+node_modules
+.sass-cache
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+.sass-cache
+/.vscode
+.vscode

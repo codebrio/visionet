@@ -1,0 +1,297 @@
+.wrapper {
+	background-color: $white;
+	// navbar
+	.navbar {
+		height: 55px;
+		.navbar-brand {
+			img {
+				width: 150px;
+				height: auto;
+			}
+			a + a {
+				color: $blue;
+				position: relative;
+				top: 6px;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				display: none;
+			}
+		}
+		&.bg-light {
+			background-color: $white !important;
+		}
+		.navbar-nav {
+			.nav-item {
+				.nav-link {
+					color: $gray-10;
+					font-size: 14px;
+					font-family: "Open Sans", sans-ser;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+	// banner
+	.banner {
+		position: relative;
+		background-image: url("../images/banner.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 360px;
+		.overlayer {
+			background-color: #0202245e;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 0;
+		}
+
+		header {
+			.container {
+				z-index: 100;
+			}
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			.content {
+				// margin-top: 60px;
+				z-index: 100;
+				.display-3 {
+					font-weight: 600;
+					text-transform: uppercase;
+				}
+				.display-1 {
+					font-weight: 600;
+					text-transform: uppercase;
+				}
+				small {
+					font-size: 14px;
+				}
+			}
+			.card {
+				width: 365px;
+				height: 365px;
+				display: none;
+				h3 {
+					text-transform: uppercase;
+					font-size: 16px;
+					font-weight: 600;
+					margin-bottom: 20px;
+				}
+				.card-body {
+					padding: 30px;
+					.banner-form {
+						.form-control {
+							width: 300px;
+							height: 45px;
+							margin-bottom: 25px;
+							border-radius: 0;
+							font-style: italic;
+							border-color: $gray-500;
+						}
+					}
+					.btn {
+						width: 300px;
+						height: 45px;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+	}
+	// business
+	.busines {
+		.text-box {
+			p {
+				font-size: 16px;
+				text-align: center;
+				margin-bottom: 30px;
+				color: $gray-10;
+			}
+			a {
+				display: block;
+			}
+		}
+	}
+	// expertise
+	.expertise {
+		position: relative;
+		.carousel {
+			.owl-carousel {
+				.item {
+					margin: 0 10px;
+					.card {
+						width: 100%;
+						max-width: 250px;
+						height: 250px;
+						margin: 0 auto;
+						border-radius: 0;
+						border: 10px solid rgba($color: #e5e5e8, $alpha: 0.7);
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						vertical-align: middle;
+						img {
+							width: 100px;
+							margin: 40px auto 10px auto;
+						}
+						&::after {
+							content: "";
+							display: block;
+							width: 130px;
+							height: 10px;
+							background-color: $white;
+							margin-bottom: -10px;
+						}
+						&::before {
+							content: "";
+							display: block;
+							width: 130px;
+							height: 10px;
+							background-color: $white;
+							margin-top: -10px;
+						}
+						.card-body {
+							color: $bg-card-color-10;
+							font-size: 24px;
+							font-weight: 700;
+							.card-text {
+								color: $gray-10;
+								text-transform: capitalize;
+							}
+						}
+					}
+				}
+			}
+			.owl-nav {
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 100px;
+
+				.owl-prev {
+					float: left;
+					font-weight: 600;
+					font-size: 72px;
+					color: $gray-5;
+					position: absolute;
+					left: -3%;
+				}
+				.owl-next {
+					float: right;
+					font-size: 72px;
+					font-weight: 600;
+					color: $gray-5;
+					position: absolute;
+					right: -3%;
+				}
+			}
+		}
+	}
+	// partners
+	.partners {
+		.card {
+			margin-bottom: 30px;
+			img {
+				display: block !important;
+			}
+		}
+	}
+	// new-insights
+	.new-insights {
+		.card {
+			height: 365px;
+			margin-bottom: 45px;
+			img {
+				border-radius: 0;
+			}
+			.card-body {
+				text-transform: uppercase;
+				.card-text {
+					color: $gray-10;
+					font-size: 16px;
+				}
+			}
+			.card-footer {
+				background-color: $white;
+				border-color: $white;
+				padding: 16px;
+				.card-read {
+					color: $gray-300;
+				}
+				.card-link {
+					color: $blue-10;
+					font-weight: 600;
+				}
+			}
+		}
+		a.btn-outline-primary {
+			margin-bottom: 120px;
+		}
+	}
+	.footer {
+		.contact-us {
+			background-color: $blue-ligth-10;
+			border-top: 2px solid $gray;
+			.contact-us-form {
+				margin: 15px auto;
+				.form-control {
+					border-radius: 0;
+					background-color: transparent;
+				}
+				button {
+					min-width: 300px !important;
+					background-color: $white;
+					&:hover {
+						background-color: $blue-10;
+					}
+				}
+			}
+			.address {
+				span {
+					width: 35px;
+					height: 35px;
+					border-radius: 50%;
+					display: block;
+					margin: 15px auto;
+					color: $white;
+					background-color: $gray-500;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+				}
+				p {
+					color: $gray-500;
+					text-transform: capitalize;
+				}
+			}
+		}
+		.copy-right {
+			border-top: 2px solid $gray;
+			color: $gray-10;
+			.social-media {
+				.list-inline-item {
+					span {
+						width: 35px;
+						height: 35px;
+						border-radius: 50%;
+						display: block;
+						margin: 0 auto;
+						color: $gray-500;
+						background-color: $white;
+						border: 1px solid $gray-500;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+					}
+				}
+			}
+		}
+	}
+}

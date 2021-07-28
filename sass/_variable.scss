@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+// Base Colors
+$white: #ffffff;
+$black: #000000;
+
+$gray-100: #f1f3f5;
+$gray-200: #f7f7f7;
+$gray-300: #a3a3ad;
+$gray-400: #dcdcdc;
+$gray-500: #a1a1ac;
+$gray-600: #777777;
+$gray-700: #3f4652;
+$gray-710: #202636;
+$gray-800: #262d39;
+
+$navy: #696d73;
+$red: #f51720;
+$red-light: #f57075;
+$green: #00da84;
+$blue: #12aaeb;
+$blue-10: #089dfc;
+$yellow: #ffb031;
+$yellow-light: #fbeeab;
+$pink: #f8f1f8;
+
+$blue-ligth-10: #f9fbff;
+
+$gray: #e1e5ef;
+$gray-5: #e5e5e8;
+$gray-10: #56576e;
+$gray-20: #7a8899;
+$gray-30: #6b7a8a;
+$gray-40: #465364;
+$gray-50: #11253e;
+$gray-60: #040124;
+// card color
+$bg-card-color-10: #56576e;
+$bg-card-color-15: #11243e;
+$bg-card-color-20: #131c2b;
+$bg-card-color-30: #24272b;
+$bg-card-color-40: #13162e;
+$bg-card-color-50: #171a21;
+$bg-card-color-60: #1f0216;
+$bg-card-color-70: #0b1a27;
+$bg-card-color-80: #0b0a15;
+$bg-card-color-81: #1c282f;
+
+// Theme Colors
+$primary: $gray-700;
+$secondary: $gray-600;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$info: $blue;
+$light: $gray-300;
+$dark: $gray-700;
+
+// Font Family
+$font-family-openSans: "Open Sans", sans-serif;
+$font-family-secondary: $font-family-openSans;
+
+// Font Size
+$font-size-base: 14px;
+$font-size-lg: ($font-size-base + 2);
+$font-size-sm: ($font-size-base - 2);
+$font-size-xs: ($font-size-base - 4);
+
+$h1-font-size: ($font-size-base + 14);
+$h2-font-size: ($font-size-base + 10);
+$h3-font-size: ($font-size-base + 6);
+$h4-font-size: ($font-size-base + 4);
+$h5-font-size: ($font-size-base + 2);
+$h6-font-size: $font-size-base;
+
+// Font Weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-extra: 900;
+
+$font-weight-base: $font-weight-normal;
+$line-height-base: 24px;
+
+// Form Input Size
+$input-height-base: 42px;
+$input-height-sm: ($input-height-base - 10);
+$input-height-lg: ($input-height-base + 8);
+
+// Conatiner Width
+// $container-width: 1200px;
+
+// dashboard breadcrumb
+$breadcrumb-divider: quote(">");

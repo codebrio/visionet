@@ -1,0 +1,81 @@
+// font-family: 'Open Sans', sans-ser
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Open Sans", sans-ser;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans", sans-ser;
+}
+
+p {
+	margin: 0 0 15px;
+	font-size: 14px;
+}
+
+.container {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cta {
+	color: $primary;
+
+	&:hover,
+	&:focus {
+		color: darken($primary, 10);
+		text-decoration: none;
+	}
+}
+
+section {
+	padding: 60px 0;
+	min-height: 500px !important;
+}
+
+.clearfix {
+	&:before,
+	&:after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+.image-responsive {
+	width: 100%;
+	height: auto;
+}
+.advance-heading {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 400;
+	font-size: 26px;
+	margin: 50px auto;
+	color: $gray-10;
+}
+.text-primary {
+	color: $blue-10 !important;
+}
+.card {
+	border-radius: 0;
+}
